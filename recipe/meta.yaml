@@ -1,5 +1,5 @@
 {% set name = "cartogram" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 088f7d2fb8840e4e5a30d87270c6a9326e03b4f19d11326009bd324bf6cc00ed
+  sha256: 81ed9fa1c5b68d9c8cb7b96a9c3676e1830f71e1dc4ca765ce432a37e19b55e8
 
 build:
   noarch: python
